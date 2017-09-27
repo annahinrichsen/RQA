@@ -8,18 +8,23 @@ setwd("C:/Users/annaa/OneDrive/3. semester/Exp. Method 3/Practical/RQA/RQA")
 library(tseriesChaos);library(nonlinearTseries);library(SparseM)
 ```
 
-
+create sin-waves
 
 ```{r}
+sine=(sin(seq(0.1,20,0.1))) # create sine wave
 
+shuffled_sine=c(sine[1:80],sample(sine[81:120]),sine[121:200]) # create sine wave with its middle 40 data points shuffled
+
+
+mutual(sine,lag.max = 50) # run average mutual information
 
 ```
 
-## Including Plots
 
-You can also embed plots, for example:
 
 ```{r}
+
+
 ```
 
 
