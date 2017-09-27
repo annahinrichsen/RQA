@@ -1,0 +1,25 @@
+---
+title: "Untitled"
+output: word_document
+---
+
+```{r}
+setwd("C:/Users/annaa/OneDrive/3. semester/Exp. Method 3/Practical/RQA/RQA")
+library(tseriesChaos);library(nonlinearTseries);library(SparseM)
+```
+
+
+
+```{r}
+
+
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r}
+```
+
+
